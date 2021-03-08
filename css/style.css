@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+.fl_l {
+  float: left;
+}
+.fl_r {
+  float: right;
+}
+.rel {
+  position: relative;
+}
+header li {
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.container {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(233, 235, 233);
+}
+.cont-80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+li img {
+  margin-top: -10px;
+  width: 150px;
+  vertical-align: middle;
+}
+button {
+  background-color: indianred;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* gestione drops  */
+.drop li {
+  display: block;
+  line-height: 30px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+.drop li:hover {
+  background-color: rgb(196, 194, 194);
+  border-left: 3px solid indianred;
+}
+.drop {
+  position: absolute;
+  background-color: rgb(233, 235, 233);
+  height: 120px;
+  display: none;
+  box-shadow: 2px 5px 5px gray;
+}
+.drop.prod, .aiuto {
+  height: 150px;
+}
+.drop.azienda {
+  height: 320px;
+}
+
+.drop.active {
+  display: block;
+}
